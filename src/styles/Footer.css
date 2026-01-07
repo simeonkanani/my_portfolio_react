@@ -1,0 +1,18 @@
+/* Footer */
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    transition: var(--transition);
+}
+
+body.dark-mode .footer {
+    background-color: #0d0d0d;
+    border-top: 1px solid var(--border-color);
+}
+
+.footer p {
+    margin: 0.5rem 0;
+    opacity: 0.8;
+}
