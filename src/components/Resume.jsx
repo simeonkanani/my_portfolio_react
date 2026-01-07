@@ -31,26 +31,27 @@ export default function Resume() {
             <div className="space-y-8">
               <div className="relative pl-8 pb-8 border-l-2 border-blue-600">
                 <div className="absolute -left-4 top-0 w-6 h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full border-4 border-white"></div>
-                <h4 className="text-lg font-bold text-gray-900">Senior Cloud Solution Architect</h4>
-                <p className="text-blue-600 font-semibold">Enterprise Tech Company</p>
-                <p className="text-sm text-gray-500 mb-2">2022 - Present</p>
-                <p className="text-gray-700">Led cloud migration initiatives for 50+ enterprise clients, designing scalable and cost-effective solutions.</p>
+                <h4 className="text-lg font-bold text-gray-900">Systems Engineer & Solution Architect</h4>
+                <p className="text-blue-600 font-semibold">Kenya Revenue Authority</p>
+                <p className="text-sm text-gray-500 mb-2">2023 - Present</p>
+                <p className="text-gray-700">Led cloud migration of critical business systems, designing scalable and cost-effective solutions.</p>
               </div>
 
               <div className="relative pl-8 pb-8 border-l-2 border-blue-600">
                 <div className="absolute -left-4 top-0 w-6 h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full border-4 border-white"></div>
-                <h4 className="text-lg font-bold text-gray-900">Systems Engineer & DevOps Lead</h4>
-                <p className="text-blue-600 font-semibold">Cloud Infrastructure Firm</p>
-                <p className="text-sm text-gray-500 mb-2">2019 - 2022</p>
-                <p className="text-gray-700">Managed infrastructure automation and implemented CI/CD pipelines for enterprise applications.</p>
+                <h4 className="text-lg font-bold text-gray-900">IT Support Engineer </h4>
+                <p className="text-blue-600 font-semibold">Mercy Corps Kenya</p>
+                <p className="text-sm text-gray-500 mb-2">2021 - 2022</p>
+                <p className="text-gray-700">Managed IT infrastructure, automation and optimized cloud and on-premise applications.</p>
               </div>
 
               <div className="relative pl-8 border-l-2 border-blue-600">
                 <div className="absolute -left-4 top-0 w-6 h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full border-4 border-white"></div>
-                <h4 className="text-lg font-bold text-gray-900">AI/ML Engineer</h4>
-                <p className="text-blue-600 font-semibold">Tech Innovation Startup</p>
-                <p className="text-sm text-gray-500 mb-2">2017 - 2019</p>
-                <p className="text-gray-700">Developed machine learning models and deployed them to production cloud environments.</p>
+                <h4 className="text-lg font-bold text-gray-900">IT Operation Associate</h4>
+                <p className="text-blue-600 font-semibold">Andela</p>
+                <p className="text-sm text-gray-500 mb-2">2019 - 2020</p>
+                <p className="text-gray-700">Provided technical support for cross-functional teams and troubleshooting for enterprise applications.
+                </p>
               </div>
             </div>
           </div>
@@ -66,22 +67,22 @@ export default function Resume() {
             <div className="space-y-6">
               <div className="card p-6 hover:shadow-md transition-shadow duration-300">
                 <h4 className="text-lg font-bold text-gray-900 mb-2">AWS Certified Solutions Architect</h4>
-                <p className="text-blue-600 font-semibold text-sm">Professional Level - 2023</p>
+                <p className="text-blue-600 font-semibold text-sm">Associate Level - 2026</p>
               </div>
 
               <div className="card p-6 hover:shadow-md transition-shadow duration-300">
-                <h4 className="text-lg font-bold text-gray-900 mb-2">Kubernetes Application Developer</h4>
-                <p className="text-blue-600 font-semibold text-sm">CKAD Certified - 2022</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">Kubernetes Cloud Native Associate</h4>
+                <p className="text-blue-600 font-semibold text-sm">KCNA Certified - 2024</p>
               </div>
 
               <div className="card p-6 hover:shadow-md transition-shadow duration-300">
-                <h4 className="text-lg font-bold text-gray-900 mb-2">Master's in Computer Science</h4>
-                <p className="text-gray-600 text-sm">Specialization: Machine Learning & Cloud Computing</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">ITIL v4 Certified</h4>
+                <p className="text-blue-600 font-semibold text-sm">IT Service Management</p>
               </div>
 
               <div className="card p-6 hover:shadow-md transition-shadow duration-300">
-                <h4 className="text-lg font-bold text-gray-900 mb-2">Bachelor's in Software Engineering</h4>
-                <p className="text-gray-600 text-sm">2015</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">Bachelor's in Business Information Technology</h4>
+                <p className="text-gray-600 text-sm">2018</p>
               </div>
 
               <a href="#" className="btn btn-primary w-full mt-8 justify-center">

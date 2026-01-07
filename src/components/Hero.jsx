@@ -77,7 +77,7 @@ export default function Hero() {
             <p className="text-gray-600 text-sm">Years Experience</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-bold gradient-text">20+</p>
+            <p className="text-3xl font-bold gradient-text">10+</p>
             <p className="text-gray-600 text-sm">Certifications</p>
           </div>
         </div>

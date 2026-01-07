@@ -17,7 +17,7 @@ const projects = [
     id: 3,
     title: 'Automated CI/CD Pipeline',
     description: 'Orchestrated end-to-end CI/CD pipelines with automated testing, security scanning, and deployment to Kubernetes clusters.',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop',
+    image: 'https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?w=500&h=300&fit=crop',
     tags: ['GitHub Actions', 'Docker', 'Kubernetes', 'Helm']
   }
 ]

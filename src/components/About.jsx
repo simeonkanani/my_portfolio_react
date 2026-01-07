@@ -29,7 +29,7 @@ export default function About() {
 
           <div>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              I'm a passionate <span className="font-semibold text-blue-600">Cloud Solution Architect</span> and Systems Engineer with deep expertise in designing and implementing enterprise-scale cloud solutions. With a strong background in AI and machine learning, I specialize in creating intelligent, scalable systems that drive business innovation.
+              I'm a passionate <span className="font-semibold text-blue-600">Cloud Solution Architect</span> and Systems Engineer with deep expertise in designing and implementing enterprise-scale cloud solutions. With a strong background in Cloud Solutions and IT Service Management, I specialize in creating intelligent, scalable systems that drive business innovation.
             </p>
             
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
