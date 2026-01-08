@@ -53,7 +53,7 @@ Error generating stack: `+o.message+`
         html.dark #skills {
           background-color: rgb(15, 23, 42);
         }
-      `}),s.jsxs("div",{className:"container",children:[s.jsx("h2",{className:"section-title mb-20",children:"Skills & Technologies"}),s.jsx("div",{className:"grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8",children:Wd.map(k=>s.jsx("div",{className:"group flex flex-col items-center justify-center p-6 rounded-xl glass hover:shadow-lg transition-all duration-300 hover:scale-110",children:s.jsx("div",{className:"w-16 h-16 flex items-center justify-center group-hover:scale-125 transition-transform duration-300",children:s.jsx("img",{src:k.url,alt:k.name,className:"w-full h-full object-contain"})})},k.name))})]})]})}const $d="/assets/my_profile-D7kaE8B8.jpeg";function Kd(){return s.jsxs("section",{id:"about",className:"bg-white",children:[s.jsx("style",{children:`
+      `}),s.jsxs("div",{className:"container",children:[s.jsx("h2",{className:"section-title mb-20",children:"Skills & Technologies"}),s.jsx("div",{className:"grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8",children:Wd.map(k=>s.jsx("div",{className:"group flex flex-col items-center justify-center p-6 rounded-xl glass hover:shadow-lg transition-all duration-300 hover:scale-110",children:s.jsx("div",{className:"w-16 h-16 flex items-center justify-center group-hover:scale-125 transition-transform duration-300",children:s.jsx("img",{src:k.url,alt:k.name,className:"w-full h-full object-contain"})})},k.name))})]})]})}const $d="/my_portfolio_react/assets/my_profile-D7kaE8B8.jpeg";function Kd(){return s.jsxs("section",{id:"about",className:"bg-white",children:[s.jsx("style",{children:`
         html.dark #about {
           background-color: rgb(3, 7, 18);
         }
