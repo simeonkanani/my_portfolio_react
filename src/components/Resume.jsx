@@ -34,7 +34,7 @@ export default function Resume() {
                 <h4 className="text-lg font-bold text-gray-900">Systems Engineer & Solution Architect</h4>
                 <p className="text-blue-600 font-semibold">Kenya Revenue Authority</p>
                 <p className="text-sm text-gray-500 mb-2">2023 - Present</p>
-                <p className="text-gray-700">Led cloud migration of critical business systems, designing scalable and cost-effective solutions.</p>
+                <p className="text-gray-700">Led on-premise & cloud migration of critical Enterprise systems, designing scalable and cost-effective solutions.</p>
               </div>
 
               <div className="relative pl-8 pb-8 border-l-2 border-blue-600">

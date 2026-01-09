@@ -69,11 +69,11 @@ export default function Hero() {
 
         <div className="mt-16 flex justify-center gap-8">
           <div className="text-center">
-            <p className="text-3xl font-bold gradient-text">50+</p>
+            <p className="text-3xl font-bold gradient-text">30+</p>
             <p className="text-gray-600 text-sm">Enterprise Projects</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-bold gradient-text">8+</p>
+            <p className="text-3xl font-bold gradient-text">5+</p>
             <p className="text-gray-600 text-sm">Years Experience</p>
           </div>
           <div className="text-center">

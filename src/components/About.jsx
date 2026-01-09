@@ -1,3 +1,5 @@
+import myProfile from '../my_profile.jpeg';
+
 export default function About() {
   return (
     <section id="about" className="bg-white">
@@ -20,9 +22,7 @@ export default function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur-2xl opacity-20"></div>
               <div className="relative w-full aspect-square bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center">
-                <svg className="w-32 h-32 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
+                <img src={myProfile} alt="My Profile" className="w-full h-full rounded-full object-cover shadow-lg border-4 border-white" />
               </div>
             </div>
           </div>

@@ -1,24 +1,27 @@
 const projects = [
   {
     id: 1,
-    title: 'Multi-Cloud Infrastructure Platform',
-    description: 'Designed and deployed a multi-cloud architecture supporting AWS, Azure, and GCP with automated failover and load balancing.',
+    title: 'Udagram Image Filtering Application',
+    description: 'Designed and deployed a Microservice Application supporting AWS, Azure, and GCP with automated failover and load balancing.',
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=300&fit=crop',
-    tags: ['AWS', 'Azure', 'Kubernetes', 'Terraform']
+    tags: ['AWS', 'NodeJs', 'Kubernetes', 'Angular', 'Typescript', 'PostgreSQL'],
+    github: 'https://github.com/simeonkanani/Udagram-Image-Filtering-Application'
   },
   {
     id: 2,
     title: 'My Portfolio',
     description: 'A professional portfolio website showcasing cloud architecture expertise and AI knowledge with dark mode support, responsive design, and smooth animations.',
     image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop',
-    tags: ['React', 'Tailwind CSS v4', 'Vite', 'Responsive Design']
+    tags: ['React', 'Tailwind CSS v4', 'Vite', 'GitHub Actions'],
+    github: 'https://github.com/simeonkanani/my_portfolio_react'
   },
   {
     id: 3,
-    title: 'Automated CI/CD Pipeline',
-    description: 'Orchestrated end-to-end CI/CD pipelines with automated testing, security scanning, and deployment to Kubernetes clusters.',
+    title: 'Travel Blog Website',
+    description: 'Deployed a static website to AWS using S3, CloudFront, and IAM.',
     image: 'https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?w=500&h=300&fit=crop',
-    tags: ['GitHub Actions', 'Docker', 'Kubernetes', 'Helm']
+    tags: ['AWS', 'JavaScript', 'Bootstrap CSS'],
+    github: 'https://github.com/simeonkanani/Travel-Blog-Website'
   }
 ]
 
@@ -46,13 +49,6 @@ export default function Projects() {
               key={project.id} 
               className="group card rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full"
             >
-              <div 
-                className="h-48 bg-cover bg-center relative overflow-hidden"
-                style={{backgroundImage: `url(${project.image})`}}
-              >
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
-              </div>
-              
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                   {project.title}
@@ -78,7 +74,8 @@ export default function Projects() {
                     Learn More
                   </a>
                   <a 
-                    href="#" 
+                    href={project.github} 
+                    target="_blank" rel="noopener noreferrer"
                     className="flex-1 px-4 py-2 text-center font-semibold text-blue-600 hover:text-blue-700 transition-colors"
                   >
                     GitHub
