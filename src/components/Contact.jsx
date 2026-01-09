@@ -118,10 +118,11 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a href="https://x.com/m0ywaywa" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-gray-200 hover:bg-blue-100 flex items-center justify-center transition-colors">
-                  <svg className="w-6 h-6 text-gray-700 hover:text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75-2.35 7-5 7-5s-1.41.36-3 1.4A5.403 5.403 0 0123 3z"/>
-                  </svg>
-                </a>
+  <svg className="w-7 h-7 text-gray-700 hover:text-blue-600" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="120" height="120" rx="60" fill="black"/>
+    <path d="M86.4 33H99.5L70.6 68.1L104 107H80.7L60.7 83.2L37.7 107H24.5L55.2 69.7L22.6 33H46.6L65.1 54.7L86.4 33ZM82.1 99.2H89.1L45.2 40.2H37.7L82.1 99.2Z" fill="white"/>
+  </svg>
+</a>
               </div>
             </div>
           </div>
