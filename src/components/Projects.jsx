@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'Udagram Image Filtering Application',
-    description: 'Designed and deployed a Microservice Application to AWS leveraging REST API, Kubernetes, with automated failover and load balancing.',
+    description: 'Designed and deployed a Microservice Application in AWS leveraging REST API, with automated failover and load balancing.',
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=300&fit=crop',
     tags: ['AWS', 'NodeJs', 'Kubernetes', 'Angular', 'Typescript', 'PostgreSQL'],
     github: 'https://github.com/simeonkanani/Udagram-Image-Filtering-Application'
@@ -10,7 +10,7 @@ const projects = [
   {
     id: 2,
     title: 'My Portfolio',
-    description: 'A professional portfolio website showcasing cloud architecture expertise and AI knowledge with dark mode support, responsive design, and smooth animations.',
+    description: 'A professional portfolio website showcasing cloud architecture and Systems Engineering expertise with dark mode support, responsive design, and smooth animations.',
     image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop',
     tags: ['React', 'Tailwind CSS v4', 'Vite', 'GitHub Actions'],
     github: 'https://github.com/simeonkanani/my_portfolio_react'

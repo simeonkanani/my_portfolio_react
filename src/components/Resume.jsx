@@ -72,7 +72,7 @@ export default function Resume() {
 
               <div className="card p-6 hover:shadow-md transition-shadow duration-300">
                 <h4 className="text-lg font-bold text-gray-900 mb-2">Kubernetes Cloud Native Associate</h4>
-                <p className="text-blue-600 font-semibold text-sm">KCNA Certified - 2024</p>
+                <p className="text-blue-600 font-semibold text-sm">KCNA Certified - 2025</p>
               </div>
 
               <div className="card p-6 hover:shadow-md transition-shadow duration-300">
